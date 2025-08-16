@@ -1,0 +1,21 @@
+{
+  "name": "tarea-3",
+  "version": "1.0.0",
+  "main": "sw.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "lit": "^3.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^7.2.1",
+    "vite": "^7.1.2",
+    "workbox-cli": "^7.3.0"
+  }
+}

@@ -8,14 +8,22 @@
   <meta name="theme-color" content="#990000">
   
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #fafafa; font-family: Arial, sans-serif; }
+    .offline-banner {
+      display: none;
+      background: #ff9800;
+      color: #fff;
+      text-align: center;
+      padding: 8px;
+      position: sticky;
+      top: 0; left: 0; right: 0;
+      z-index: 1000;
     }
   </style>
 </head>
 <body>
+  <div id="offlineBanner" class="offline-banner">Estás sin conexión. Algunas funciones pueden no estar disponibles.</div>
   <espe-layout>
     <product-card
       title="Nike Air Zoom Pegasus 41"
